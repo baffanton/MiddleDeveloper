@@ -1,0 +1,30 @@
+.select {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        cursor: pointer;
+    }
+
+    &__menu {
+        overflow: auto;
+        border: 1px solid black;
+        margin-top: 10px;
+
+        &_hidden {
+            display: none;
+        }
+    }
+
+    &__option {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid blue;
+    }
+}
