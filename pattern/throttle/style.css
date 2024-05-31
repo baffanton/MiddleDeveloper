@@ -1,0 +1,18 @@
+#progress {
+  position: fixed;
+  top: 15px;
+  left: 20px;
+  right: 20px;
+  width: calc(100% - 40px);
+  margin: auto;
+  max-width: 600px;
+}
+
+#content {
+  overflow: auto;
+  position: relative;
+  top: 40px;
+  max-width: 600px;
+  margin: auto;
+  max-height: 400px;
+}
