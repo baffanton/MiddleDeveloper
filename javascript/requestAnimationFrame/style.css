@@ -1,0 +1,13 @@
+#container {
+  height: 200px;
+  position: relative;
+}
+
+#ball {
+  position: absolute;
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: black;
+}
