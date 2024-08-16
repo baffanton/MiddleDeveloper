@@ -1,0 +1,12 @@
+body {
+  font-family: "Averia serif libre";
+  text-align: center;
+  color: aliceblue;
+}
+
+img {
+  width: 1366px;
+  height: 768px;
+  display: inline-block;
+  margin: 50px;
+}

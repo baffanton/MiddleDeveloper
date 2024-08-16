@@ -24,10 +24,9 @@ function bounce(timeFraction) {
 }
 
 const onClickHandler = () => {
-  debugger;
   // анимация top (прыжки)
   applyAnimation({
-    duration: 1000,
+    duration: 3000,
     timeFunc: makeEaseOut(bounce),
     drawFunc: function (progress) {
       ball.style.top = height * progress + "px";
@@ -36,7 +35,7 @@ const onClickHandler = () => {
 
   // анимация left (движение вправо)
   applyAnimation({
-    duration: 1000,
+    duration: 3000,
     timeFunc: makeEaseOut(quad),
     drawFunc: function (progress) {
       ball.style.left = width * progress + "px";
