@@ -1,0 +1,12 @@
+.nav-bar__logo-container {
+  display: none;
+
+  width: 2rem;
+  height: 2rem;
+}
+
+@media (max-width: 900px) {
+  .nav-bar__logo-container {
+    display: block;
+  }
+}

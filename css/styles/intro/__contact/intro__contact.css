@@ -1,0 +1,15 @@
+.intro__contact {
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-right: 30px;
+}
+
+@media (max-width: 600px) {
+  .intro__contact {
+    flex-direction: row;
+    padding-right: 0;
+  }
+}

@@ -1,0 +1,9 @@
+.intro__contact-item-logo {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .intro__contact-item-logo {
+    display: block;
+  }
+}

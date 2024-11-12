@@ -1,0 +1,10 @@
+.feature__empty-block {
+  display: grid;
+  grid-template-rows: 17% 5% 58% 25%;
+}
+
+@media (max-width: 600px) {
+  .feature__empty-block {
+    display: hidden;
+  }
+}

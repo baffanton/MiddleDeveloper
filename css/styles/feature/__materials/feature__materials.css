@@ -1,0 +1,10 @@
+.feature__materials {
+  display: grid;
+  grid-template-columns: 65% 35%;
+}
+
+@media (max-width: 600px) {
+  .feature__materials {
+    display: block;
+  }
+}

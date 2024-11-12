@@ -1,0 +1,12 @@
+.footer__logo {
+  position: absolute;
+  height: 2.5rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .footer__logo {
+    height: 1rem;
+  }
+}

@@ -1,0 +1,8 @@
+.header__nav-item {
+  cursor: pointer;
+  color: white;
+}
+
+.header__nav-item.button {
+  color: #606B74;
+}

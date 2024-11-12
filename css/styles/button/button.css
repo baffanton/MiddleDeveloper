@@ -1,0 +1,14 @@
+.button {
+  width: 6rem;
+  height: 2rem;
+  background-color: white;
+  color: #606B74;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button.button_primary {
+  background-color: transparent;
+  color: #606B74;
+  border: 1px solid #606B74;
+}

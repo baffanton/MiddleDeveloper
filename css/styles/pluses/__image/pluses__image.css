@@ -1,0 +1,12 @@
+.pluses__image {
+  background: url("../../../shared/PlusesImage.png");
+  height: 55vh;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 600px) {
+  .pluses__image {
+    height: 35vh;
+  }
+}

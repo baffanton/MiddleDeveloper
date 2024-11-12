@@ -1,0 +1,8 @@
+.intro__play {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  cursor: pointer;
+  align-items: center;
+  width: auto;
+}

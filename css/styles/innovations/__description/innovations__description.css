@@ -1,0 +1,13 @@
+.innovations__description {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7vw;
+}
+
+@media (max-width: 600px) {
+  .innovations__description {
+    grid-template-columns: none;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+  }
+}

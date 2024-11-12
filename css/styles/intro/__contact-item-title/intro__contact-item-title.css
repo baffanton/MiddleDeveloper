@@ -1,0 +1,10 @@
+.intro__contact-item-title {
+  color: white;
+  writing-mode: vertical-rl;
+}
+
+@media (max-width: 600px) {
+  .intro__contact-item-title {
+    display: none;
+  }
+}

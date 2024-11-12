@@ -1,0 +1,146 @@
+/* FONTS */
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+/* BUTTON */
+
+@import url("./styles/button/button.css");
+
+/* MAIN */
+
+@import url("./styles/main/main.css");
+
+/* HEADER */
+
+@import url("./styles/header/header.css");
+@import url("./styles/header/__container/header__container.css");
+@import url("./styles/header/__logo/header__logo.css");
+@import url("./styles/header/__nav/header__nav.css");
+@import url("./styles/header/__nav-item/header__nav-item.css");
+
+/* NAV-BAR */
+
+@import url("./styles/nav-bar/__logo-container/nav-bar__logo-container.css");
+@import url("./styles/nav-bar/__logo/nav-bar__logo.css");
+@import url("./styles/nav-bar/__list/nav-bar__list.css");
+@import url("./styles/nav-bar/__list/_active/nav-bar__list_active.css");
+@import url("./styles/nav-bar/__item/nav-bar__item.css");
+
+/* INTRO */
+
+@import url("./styles/intro/intro.css");
+@import url("./styles/intro/__bg/intro__bg.css");
+@import url("./styles/intro/__container/intro__container.css");
+@import url("./styles/intro/__title/intro__title.css");
+@import url("./styles/intro/__subtitle/intro__subtitle.css");
+@import url("./styles/intro/__description/intro__description.css");
+@import url("./styles/intro/__play/intro__play.css");
+@import url("./styles/intro/__play-logo/intro__play-logo.css");
+@import url("./styles/intro/__play-description/intro__play-description.css");
+@import url("./styles/intro/__contact/intro__contact.css");
+@import url("./styles/intro/__contact-item/intro__contact-item.css");
+@import url("./styles/intro/__contact-item-title/intro__contact-item-title.css");
+@import url("./styles/intro/__contact-item-logo/intro__contact-item-logo.css");
+
+/* FEATURE */
+
+@import url("./styles/feature/feature.css");
+@import url("./styles/feature/__materials/feature__materials.css");
+@import url("./styles/feature/__empty-block/feature__empty-block.css");
+
+/* BLOCKS */
+
+@import url("./styles/green-block/green-block.css");
+@import url("./styles/white-block/white-block.css");
+@import url("./styles/transparent-block/transparent-block.css");
+@import url("./styles/transparent-light-block/transparent-light-block.css");
+
+/* MATERIALS */
+
+@import url("./styles/materials/materials.css");
+@import url("./styles/materials/__title/materials__title.css");
+@import url("./styles/materials/__description/materials__description.css");
+@import url("./styles/materials/__more/materials__more.css");
+
+/* INNOVATIONS */
+
+@import url("./styles/innovations/innovations.css");
+@import url("./styles/innovations/__title/innovations__title.css");
+@import url("./styles/innovations/__description/innovations__description.css");
+@import url("./styles/innovations/__description-item/innovations__description-item.css");
+
+/* PLUSES */
+
+@import url("./styles/pluses/pluses.css");
+@import url("./styles/pluses/__container/pluses__container.css");
+@import url("./styles/pluses/__image/pluses__image.css");
+@import url("./styles/pluses/__items/pluses__items.css");
+@import url("./styles/pluses/__item/pluses__item.css");
+@import url("./styles/pluses/__item-title/pluses__item-title.css");
+@import url("./styles/pluses/__item-description/pluses__item-description.css");
+
+/* FOOTER */
+
+@import url("./styles/footer/footer.css");
+@import url("./styles/footer/__container/footer__container.css");
+@import url("./styles/footer/__logo/footer__logo.css");
+@import url("./styles/footer/__links/footer__links.css");
+@import url("./styles/footer/footer__item/footer__item.css");
+
+* {
+  user-select: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  padding-block: 0;
+  padding-inline: 0;
+}
+
+h6 {
+  font-size: calc(0.15rem + 6 * (100vw - 320px) / 880);
+}
+
+h5 {
+  font-size: calc(0.4rem + 6 * (100vw - 320px) / 880);
+}
+
+h4 {
+  font-size: calc(0.45rem + 6 * (100vw - 320px) / 880);
+}
+
+h3 {
+  font-size: calc(0.5rem + 6 * (100vw - 320px) / 880);
+}
+
+h2 {
+  font-size: calc(0.75rem + 6 * (100vw - 320px) / 880);
+}
+
+h1 {
+  font-size: calc(1.5rem + 6 * (100vw - 320px) / 880);
+  font-weight: 900;
+  font-family: "Merriweather", serif;
+}
+
+@media (max-width: 600px) {
+  h5 {
+    font-size: 10px;
+  }
+
+  h4 {
+    font-size: 12px;
+  }
+}

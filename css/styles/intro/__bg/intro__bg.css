@@ -1,0 +1,7 @@
+.intro__bg {
+  background: url("../../../shared/Background.png");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}

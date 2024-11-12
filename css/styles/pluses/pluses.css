@@ -1,0 +1,11 @@
+.pluses {
+  top: -10vh;
+  padding: 10vh 15vw;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .pluses {
+    padding: 40px 20px 0 20px;
+  }
+}

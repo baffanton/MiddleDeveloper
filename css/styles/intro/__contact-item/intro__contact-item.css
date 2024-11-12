@@ -1,0 +1,10 @@
+.intro__contact-item {
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .intro__contact-item {
+    width: 1rem;
+    height: 1rem;
+  }
+}

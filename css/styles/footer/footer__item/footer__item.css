@@ -1,0 +1,13 @@
+.footer__item {
+  color: rgba(255, 255, 255, .5);
+  width: max-content;
+  font-weight: 400;
+  cursor: pointer;
+  z-index: 1;
+}
+
+@media (max-width: 600px) {
+  .footer__item {
+    font-size: 8px;
+  }
+}

@@ -1,0 +1,4 @@
+.intro__play-logo {
+  width: calc(1.5rem + 6 * (100vw - 320px) / 880);
+  height: calc(1.5rem + 6 * (100vw - 320px) / 880);
+}

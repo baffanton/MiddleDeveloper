@@ -1,0 +1,15 @@
+.nav-bar__item {
+  color: #606B74;
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.nav-bar__item:hover {
+  background: white;
+}
+
+.nav-bar__item.button {
+  width: 100%;
+  height: 39px;
+}

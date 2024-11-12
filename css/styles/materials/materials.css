@@ -1,0 +1,14 @@
+.materials {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+  width: 100%;
+  padding: 10vh 20vw 10vh 15vw;
+}
+
+@media (max-width: 600px) {
+  .materials {
+    padding: 40px 20px
+  }
+}

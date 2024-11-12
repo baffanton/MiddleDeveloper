@@ -1,0 +1,13 @@
+.pluses__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7vw;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .pluses__container {
+    grid-template-columns: none;
+    grid-template-rows: 1fr auto;
+  }
+}
